@@ -31,4 +31,14 @@ module.exports = {
 }
 ```
 
+Now, to use scss into your project, include lang attribute in ```<style>``` element as below to invoke the scss code
+
+```
+<style lang="scss">
+h1{
+    color:green;
+}
+</style>
+```
+
 Nuxt.js will automatically guess the file type by it's extension and use the appropriate pre-processor loader for webpack. You will still need to install the required loader if you need to use them.
